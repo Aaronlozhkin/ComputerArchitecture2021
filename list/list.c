@@ -150,6 +150,11 @@ free(temp);
 }
 
 int main(int argc, char *argv[]){
+
+  printf("Commands: /n");
+  printf("i x: inserts integer x into the list, x must not already be present in the list.");
+  printf("d x: deletes integer x if present in the list. Does nothing otherwise.");
+
   char ch;
   int data;
   struct node *head = NULL;

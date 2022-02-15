@@ -10,6 +10,8 @@ int* generateIdentity(int dim, int* temp);
 int main(int argc, char *argv[])
 {
 if (argc < 2 || argv[1][0] == '\0'){
+  printf("Error. Usage: ./mexp filename.txt/n");
+  printf("Error. Usage: ./mexp filename.txt/n");
 exit(0);
 }
 
