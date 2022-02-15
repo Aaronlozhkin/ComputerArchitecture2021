@@ -185,7 +185,7 @@ void printCache(struct node** head, int size_Sets){
 int main(int argc, const char * argv[]) {
     
     if (argc != 6 || argv[5][0] == '\0'){
-        printf("Invalid Input. Usage: ./cachesim size_Cache associativity replacement size_Block\n");
+        printf("Invalid Input. Usage: ./cachesim size_Cache associativity replacement size_Block cache_Data.txt\n");
 		printf("size_Cache: size of cache in bytes, must be a power of 2\n");
 		printf("associativity: 0 if Fully-Associative, 1 if Direct-Mapped, n if n-Way-Associative\n");
 		printf("replacement: 0 if First-In-First-Out, 1 if Least-Recently-Used, \n");
