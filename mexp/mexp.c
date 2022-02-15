@@ -11,12 +11,12 @@ int main(int argc, char *argv[])
 {
 if (argc < 2 || argv[1][0] == '\0'){
   printf("Error. Usage: ./mexp filename.txt/n");
-  printf("Error. Usage: ./mexp filename.txt/n");
-exit(0);
+  printf("Filename.txt must be a valid text file containing a matrix.");
+  exit(0);
 }
 
   int dim;
-FILE *fp;
+  FILE *fp;
   int n;
   int x;
   int i;
@@ -43,7 +43,7 @@ FILE *fp;
   int j = 0;
   int k = 0;
 
- while (!feof(fp)){
+  while (!feof(fp)){
       fscanf(fp, " %d", &array[k*dim + j]);
       j++;
       if (j % dim == 0 && j != 0){
@@ -76,7 +76,7 @@ FILE *fp;
   }
 
   //Handle all other cases
-else {
+  else {
   int firstP = 1;
 
   while (n != 1){
@@ -94,12 +94,12 @@ else {
   printArray(out, dim);
 
   fclose(fp);
-free(array);
-free(temp);
-free(out);
+  free(array);
+  free(temp);
+  free(out);
 
-return 0;
-}
+  return 0;
+  }
 
 void printArray(int* array, int dim){
   int i;
