@@ -2,7 +2,7 @@
 
 All code is written in C and must be compiled using the MakeFile. Code requiring text files have samples. 
 
-Rutgers New Brunswick Computer Architecture 2021 Course and Project Work. Not to be used in any way as submission for an asignment! 
+Rutgers New Brunswick Computer Architecture 2021 Course and Project Work. Not to be used in any way as submission for an assignment! 
 
 **rle:**
 
@@ -18,11 +18,11 @@ Builds a binary search tree based on user input. Commands printed on run. Suppor
 
 **mexp:**
 
-Takes a file as input with an nxn matrix. Performs any amount of multiplication operations (m >= 0).
+Takes a file as input with an MxN matrix. Performs any amount of multiplication operations (n >= 0).
 
 **Housing Predictions:**
 
-This program implements a simple linear regression, training a model to predict housing price based on several variabels from bedrooms to square footage. Involves transposing, inverting, and multiplying matrices.
+This program implements a simple linear regression, training a model to predict housing price based on several variables from bedrooms to square footage. Involves transposing, inverting, and multiplying matrices.
 
 **Cache Simulator:**
 
